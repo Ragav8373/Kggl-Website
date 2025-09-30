@@ -1,0 +1,68 @@
+
+.hero0{
+    /* background-color: black; */
+    padding: 20px 20px;
+    z-index: -1;
+background: linear-gradient(90deg, #5C4FDA 31.73%, #ED1C24 59.62%, #312A74 91.35%);
+
+
+
+}
+.hero {
+  /* margin-top: -150px; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px;
+  /* background-color: #ffffff;
+  width: 1374px;
+  height: 498px;
+  position: relative;
+  top: 189px;
+  left: 33px; */
+  border-radius: 20px;
+ background: linear-gradient(90deg, #5C4FDA -150px, #1C1559 69.23%, #312A74 140.12%);
+
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+  opacity: 1;
+}
+
+.hero-content {
+  max-width: 671px;
+  color: #ffffff;
+}
+
+.hero-content h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+.hero-image {
+  width: 624px;
+  height: 454px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
